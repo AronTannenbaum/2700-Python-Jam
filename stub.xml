@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- 
+
+Write your description here!
+
+(Note that the "main" node below is the top-level generation target, and thus is required.)
+
+-->
+<grammar>
+	<main>
+		<s>
+			<slogan />
+		</s>
+	</main>
+	<slogan>
+		<s><verb/> <product/></s> 
+		<s><product/> Forever</s> 
+		<s><verb/> Less, <verb/> More <product/></s> 
+	</slogan>
+	<product>
+		<s>Cool Cola</s>
+		<s>Fruit-Flavored Fruit</s>
+		<s>Egads Bread</s>
+		<s>Paisley's Purple Product</s>
+	</product> 
+	<verb>
+		<s>Use</s>
+		<s>Suffer</s>
+		<s>Recalibrate</s>
+		<s>Ingest</s>
+		<s>Eat</s>
+	</verb>
+</grammar>

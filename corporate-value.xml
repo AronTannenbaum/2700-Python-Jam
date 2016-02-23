@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<grammar>
+    <main>
+        <s>            
+        	<lead /> <s chance="50"><marketing_modifier /></s> <product /> <marketing_value /> among the <s chance="50"><positive_adj /></s> <demographic /> for <s chance="50"><positive_adj /></s> <marketing_adj /> <marketing_adj /> <marketing_noun />.
+        </s>
+    </main>
+    <lead>
+    	<s>Research shows</s>
+    	<s>In today's market,</s>
+    	<s>Your competitors know</s>
+    	<s>Consumers demand</s>
+    	<s>Building brand value requires that</s>
+    	<s>Every company needs to learn</s>
+    	<s>One thing's for sure:</s>
+    </lead>
+    <product>
+    	<s>services</s>
+    	<s>products</s>
+    	<s>goods</s>
+    	<s>entertainment media</s>
+    	<s>clothing retailers</s>
+    	<s>furnishings</s>
+    	<s>gadgets</s>
+    	<s>curtains</s>
+    	<s>lava lamps</s>
+    	<s>online dating sites</s>
+    	<s>destination sites</s>
+    	<s>lifestyle companies</s>
+    	<s>nutrition</s>
+    	<s>health</s>
+    	<s>politics</s>
+    </product>	
+    <demographic>
+    	<s>moms on the go</s>
+    	<s>soccer moms</s>
+    	<s>men 18-34</s>
+    	<s>no-fuss-no-muss moms</s>
+    	<s>adver-guys</s>
+    	<s>young professionals</s>
+    	<s>millennials</s>
+    	<s>elderly</s>
+    	<s>wealthy patrons</s>
+    	<s>Joe the Plumber</s>
+    	<s>tweens</s>
+    	<s>go-getters</s>
+    </demographic>
+    <marketing_modifier>
+    	<s>more and more</s>
+    	<s>every day</s>
+    	<s>online</s>
+    	<s>modern</s>
+    	<s>on the Internet</s>
+        <s>creative commons licenses</s>
+    	<s>people open their wallets for</s>
+    	<s>user generated content</s>    	
+    	<s>many <demographic /> prefer</s>
+        <s>collective intelligence</s>
+    </marketing_modifier>
+    <marketing_adj>
+    	<s>viral</s>
+    	<s>interactive</s>
+    	<s>social</s>
+    	<s>sticky</s>
+    	<s>optimal</s>
+    	<s>web</s>
+    	<s>maximum</s>
+    	<s>mobile</s>
+    	<s>sexy</s>
+    	<s>crisp</s>
+    </marketing_adj>
+    <marketing_noun>
+    	<s>buzz</s>
+    	<s>webscapes</s>
+    	<s>social media</s>
+    	<s>engagement</s>
+    	<s>content</s>
+    	<s>video</s>
+    	<s>blogs</s>
+        <s>folksonomy</s>
+        <s>tagging</s>
+        <s>open source</s>
+        <s>RSS</s>
+        <s>blogosphere</s>
+        <s>social networking</s>
+        <s>long-tail effect</s>
+        <s>blogging</s>
+        <s>collective intelligence</s>
+        <s>bandwidth</s>
+        <s>pagerank</s>
+        <s>synergy</s>
+        <s>bookmarks</s>
+        <s>outreach</s>
+        <s>engagement</s>
+        <s>get up 'n go</s>
+    </marketing_noun>
+    <marketing_value>
+    	<s>mobilize</s>
+    	<s>monetize</s>
+    	<s>push the envelope</s>
+    	<s>seed <marketing_noun /></s>
+    	<s>generate <s chance="50"><marketing_adj /></s> interest</s>
+    	<s>create <s chance="50"><marketing_adj /></s> handraising</s>
+    	<s>maximize <marketing_noun /></s>
+    </marketing_value>
+    <positive_adj>
+    	<s>grey</s>
+    	<s>techno</s>
+        <s>cool</s>
+        <s>cute</s>
+        <s><s chance="50">totally</s> sweet</s>
+        <s>amazing</s>
+        <s>rock-and-roll</s>
+        <s>succulent</s>
+        <s>sensual</s>
+    </positive_adj>
+</grammar>

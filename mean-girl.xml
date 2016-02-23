@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<!-- 
+
+Description
+
+-->
+<grammar>
+	<main>
+		<s>
+
+<salutation />
+
+<opening /> <reproach /> <transition /> <reaction /> What a <derogatory_adj /> <insult_name />! <transition />
+
+<conclusion />
+
+<valediction />
+<extern grammar="name.xml" source="female_name" />
+
+		</s>
+	</main>
+	<interjection>
+		<s>OMG</s>
+		<s>WTF</s>
+		<s>holy cow</s>
+		<s>honestly</s>
+		<s>anyway</s>
+		<s>so</s>
+		<s>like</s>
+		<s>ZOMG</s>
+	</interjection>
+	<reproach>
+		<s caps="true"><interjection />, I <shock /> when <shocking_thing />!</s>
+		<s caps="true"><interjection />, you <emphatic /> will <emphatic /> never believe it. <shocking_thing />!</s>
+	</reproach>
+	<reaction>
+		<s>I know it's just because she's jealous that <extern grammar="name.xml" source="female_name" /> likes <extern grammar="name.xml" source="male_name" />.</s>
+		<s>It's no wonder <extern grammar="name.xml" source="male_name" /> broke up with her.</s>
+		<s>I was <emphatic /> embarrassed because <extern grammar="name.xml" source="male_name" /> was there!</s>
+		<s>She even said it was <derogatory_adj /> that <extern grammar="name.xml" source="female_name" /> thought <entertainer /> was <emphatic /> <positive_adj />.</s>
+	</reaction>
+	<conclusion>
+		<s>I swear she is going to <emphatic /> piss off everyone in the <club />.</s>
+		<s>Anyway, she wears the most <emphatic /> <derogatory_adj /> <apparel />. I mean, <insult />!</s>
+		<s>At least <s chance="50"><insult_name/>y</s> <recall memory="person" /> still loaned me her <positive_adj /> <apparel />.</s>
+	</conclusion>
+	<shocking_thing>
+		<s><s memory="person"><extern grammar="name.xml" source="female_name" /></s> <affront_intransitive /> <location /></s>
+		<s><s memory="person"><extern grammar="name.xml" source="female_name" /></s> <affront_transitive /> <extern grammar="name.xml" source="main" /></s> 
+	</shocking_thing>
+	<opening>
+		<s caps="true"><interjection />, I can't believe it's been <duration /> since we last talked! <s chance="50">I've been <s chance="50"><emphatic /></s> busy with my new <s chance="50">designer</s> <accessory />.</s></s>
+		<s caps="true"><interjection />, I have been <s chance="50"><emphatic /></s> busy with my new <s chance="50">designer</s> <accessory />.</s>
+		<s>So, here's something <s chance="50"><emphatic /></s> <derogatory_adj />.</s>
+		<s>Today was <emphatic /> <adjective />!</s>
+		<s caps="true"><interjection />.</s>
+	</opening>
+	<salutation>
+		<s caps="true"><interjection />!</s>
+		<s><choice><s>Hi</s><s>Hey</s></choice> <extern grammar="name.xml" source="female_name" />,</s>
+	</salutation>
+	<valediction>
+		<s>toodles!</s>
+		<s>cya!</s>
+		<s>kisses,</s>
+		<s>with mirth,</s>
+		<s>write me!</s>
+		<s>bye,</s>
+		<s>fare thee well,</s>
+	</valediction>
+	<transition>
+		<s>I mean, what a <insult_name />.</s> 
+		<s>Can you believe it?</s>
+		<s>I was like, <interjection />!</s>
+		<s><choice><s>Honestly</s><s>Seriously</s></choice>, what is wrong with her?</s>
+		<s><s caps="true" chance="50"><emphatic />, </s>she is getting <emphatic /> <insult />.</s>
+		<s>That's the last time I share my <choice><s><accessory /></s><s><apparel /></s></choice>.</s>
+		<s>I mean, did you see her <derogatory_adj/> <accessory />?</s>
+	</transition>
+	<duration>
+		<s>two months</s>
+		<s>a month</s>
+		<s>three days</s>
+		<s>so long</s>
+	</duration>
+	<emphatic>
+		<s>soooooo</s>
+		<s>so</s>
+		<s>totally</s>
+		<s>seriously</s>
+		<s>honestly</s>
+		<s>unbelievably</s>
+		<s>like</s>
+	</emphatic>
+	<insult_name>
+		<s>shrew</s>
+		<s>grimalkin</s>
+		<s>moron</s>
+		<s>freakshow</s>
+		<s>goober</s>
+		<s>butthead</s>
+		<s>dumbass</s>
+		<s>spazz</s>
+		<s>whackjob</s>
+	</insult_name>
+	<insult>
+		<s>dumb</s>
+		<s>bitchy</s>
+		<s>annoying</s>
+		<s>freakish</s>
+		<s>waffle-faced</s>
+		<s>gross</s>
+		<s>salamander-like</s>
+		<s><s chance="50"><emphatic /> </s><insult_name/>y</s>
+	</insult>
+	<shock>
+		<s><s chance="50"><emphatic /></s> couldn't believe it</s>
+		<s>was so <s chance="50"><emphatic /> </s>mortified</s>
+		<s><s chance="50"><emphatic /> </s>didn't know what to do</s>
+		<s><s chance="50"><emphatic /> </s>almost fell off my chair</s>
+	</shock>
+	<accessory>
+		<s>scrunchie</s>
+		<s>hairspray</s>
+		<s>Sidekick</s>
+		<s><entertainer/> album</s>
+		<s>cell phone</s>
+		<s>lipgloss</s>
+		<s>Facebook account</s>
+		<s>credit card</s>
+		<s><s chance="50"><emphatic /> </s> <complimentary_adj /> <apparel /></s>
+		<s>toy dog <extern grammar="name.xml" source="female_name" /></s> 
+	</accessory>
+	<apparel>
+		<s>shoes</s>
+		<s>top</s>
+		<s>legwarmers</s>
+		<s>armbands</s>
+		<s>epaulettes</s>
+		<s>strappy-shirts</s>
+		<s>underpants</s>
+	</apparel>
+	<complimentary_adj>
+		<s>cute</s>
+		<s>awesome</s>
+	</complimentary_adj>
+	<affront_intransitive>
+		<s>spilled her drink</s>
+		<s>lit her <choice><s>hair</s><s><apparel /></s><s><accessory /></s></choice> on fire</s>
+		<s>threw up</s>
+		<s>ate a <gross_thing /></s>
+		<s>took off her <apparel /></s>
+		<s>forgot to wear <apparel /></s>
+		<s>tripped and fell like a <s chance="50"><derogatory_adj/></s> freak</s>
+	</affront_intransitive>
+	<affront_transitive>
+		<s>threw up on</s>
+		<s>insulted</s>
+		<s>propositioned</s>
+		<s>licked</s>
+		<s>bitched at</s>
+		<s>poked</s>
+		<s>put a vex on</s>
+		<s>smothered</s>
+		<s>chewed out</s>
+		<s>made out with</s>
+	</affront_transitive>
+	<location>
+		<s>under the table</s>
+		<s>in the backseat</s>
+		<s><choice><s>at</s><s>outside</s><s>behind</s></choice> <place /></s>
+	</location>
+	<place>
+		<s>Burger King</s>
+		<s>Rite-Aid</s>
+		<s>In-n-Out Burger</s>
+		<s>the petting zoo</s>
+		<s>the locker room</s>
+		<s>the bathroom</s>
+		<s><accessory /> store</s>
+		<s>Starbucks</s>
+		<s>Claire's Accessories</s>
+		<s>the mall</s>
+		<s>the gym</s>
+		<s><extern grammar="name.xml" source="main" />'s house</s>
+	</place>
+	<gross_thing>
+		<s>worm</s>
+		<s>slug</s>
+		<s>donut</s>
+		<s>burrito</s>
+		<s>Pepsi</s>
+		<s>non-organic pear</s>
+	</gross_thing>
+	<club>
+		<s>cheerleading sqaud</s>
+		<s>home ec club</s>
+		<s>future farmers</s>
+		<s><entertainer /> fan club</s>
+		<s>lacrosse team</s>
+		<s>junior league</s>
+		<s>volleyball team</s>
+		<s>alpaca trainers club</s>
+		<s>future rehab club</s>
+		<s><apparel /> club</s>
+	</club>
+	<entertainer>
+		<s>Lindsay Lohan</s>
+		<s>Paris Hilton</s>
+		<s>Hillary Duff</s>
+		<s>Hannah Montana</s>
+		<s>Justin Timberlake</s>
+		<s>New Kids on the Block</s>
+		<s>Donny Osmond</s>
+		<s>Fergie</s>
+		<s>One Direction</s>
+	</entertainer>
+	<adjective>
+		<s><derogatory_adj /></s>
+		<s><positive_adj /></s>
+	</adjective>
+	<derogatory_adj>
+		<s>stupid</s>
+		<s>lame</s>
+		<s>dumb</s>
+		<s>questionable</s>
+		<s>inane</s>
+		<s>freaky</s>
+	</derogatory_adj>
+	<positive_adj>
+		<s>cool</s>
+		<s>cute</s>
+		<s><s chance="50">totally</s> sweet</s>
+		<s>amazing</s>
+		<s>rockin</s>
+	</positive_adj>
+</grammar>

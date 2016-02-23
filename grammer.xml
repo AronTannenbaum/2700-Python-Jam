@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+
+<!-- 
+Author: Aron Tannenbaum
+
+This grammer xml is about star wars because I am a big star wars fan and I could not resist the chance to do something.
+The objective is to display a Star Wars orginazations plan against someone on some world, it could be good, it could be bad,
+the randomness will decide that much for you, I found this to be fun, I hope you enjoy to as I did.
+-->
+
+<grammar>
+    <main>
+        <s>
+		The <org /> needs you to <act /> the <org /> in order to <obj /> <planet /> with our <item />. This will be our greatest <this />. 
+		
+		FOR THE <org />! Long live <you />!
+		
+		
+	   </s>
+    </main>
+    <org>
+	<s>Galatic Empire</s>
+	<s>Rebel Alliance</s>
+	<s>Black Sun</s>
+	<s>Hutt Cartel</s>
+	<s>Sith Empire</s>
+	<s>Galactic Republic</s>
+	<s>Merchants Guild</s>
+	<s>Space Pirates</s>
+	</org>
+	<act>
+	<s>Attack</s>
+	<s>Destroy</s>
+	<s>Obliterate</s>
+	<s>Engage</s>
+	<s>Capture</s>
+	<s>Merge</s>
+	<s>Bribe</s>
+	</act>
+	<obj>
+	<s>Claim</s>
+	<s>Overrun</s>
+	<s>Infest</s>
+	<s>Conquer</s>
+	<s>Bribe</s>
+	<s>Kill</s>
+	<s>Overwhelm</s>	
+	</obj>
+	<planet>
+	<s>Corescant</s>
+	<s>Alderaan</s>
+	<s>Dantooine</s>
+	<s>Tatooine</s>
+	<s>Sullest</s>
+	<s>Mon Calamari</s>
+	<s>Endor</s>
+	<s>Yaniv IV</s>
+	<s>Kuat</s>
+	</planet>
+	<item>
+	<s>Troops</s>
+	<s>Wealth</s>
+	<s>Power</s>
+	<s>Influence</s>
+	<s>Citizens</s>
+	<s>Corruption</s>
+	<s>Politics</s>
+	</item>
+	<this>
+	<s>Moment</s>
+	<s>Triumph</s>
+	<s>Glory</s>
+	<s>Achievement</s>
+	<s>Failure</s>
+	<s>Blunder</s>
+	<s>Tragedy</s>
+	<s>Victory</s>
+	</this>
+	<you>
+	<s>The Emperor</s>
+	<s>The Republic</s>
+	<s>The Empire</s>
+	<s>The People</s>
+	<s>The Sith</s>
+	<s>The Jedi</s>
+	<s>The Black Sons</s>
+	<s>The slaves</s>
+	<s>Twileks</s>
+	<s>Biths</s>
+	<s>Jawas</s>
+	<s>Hutts</s>
+	<s>Price Xizor</s>
+	<s>Mandalore</s>
+	<s>you if you really like yourself that much</s>
+	</you>
+</grammar>
